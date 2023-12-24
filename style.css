@@ -53,8 +53,7 @@ a{
  border: none;
  border-radius: 15px;
  box-shadow: 0 9px #999;
- top: 70px;
- right: 0;
+ margin: auto;
 }
 .button:hover {background-color: #3e8e41}
 .button:active {
@@ -212,7 +211,7 @@ a{
 .fa-telegram, .fa-brands fa-discord, .fa-twitter{
   background-color: transparent;
   margin: 20px;
-  font-size: 2.5em;
+  font-size: 3em;
   padding: 10px;
   width: 40px;
   height: 40px;
