@@ -32,7 +32,7 @@ function carousel() {
   myIndex++;
   if (myIndex > x.length) {myIndex = 1}    
   x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 10000);    
+  setTimeout(carousel, 2000);    
 }
 
 // Used to toggle the menu on small screens when clicking on the menu button
