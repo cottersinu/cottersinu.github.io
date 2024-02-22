@@ -96,3 +96,17 @@ acc.addEventListener("click", function() {
     this.textContent = "Read less"; // Change text to "Read less"
   }
 });
+
+//copy to clipboard
+const contentToCopy = document.getElementById('content-to-copy');
+const copyButton = document.getElementById('copy-button');
+
+copyButton.addEventListener('click', () => {
+  navigator.clipboard.writeText(contentToCopy.textContent)
+    .then(() => {
+      copyButton.classList.add('copied');
+      setTimeout(() => {
+        copyButton.classList.remove('copied');
+      }, 2000);
+    });
+});
