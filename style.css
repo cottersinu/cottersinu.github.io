@@ -238,6 +238,7 @@ a{
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 97%;
 }
 
 #content-to-copy {
