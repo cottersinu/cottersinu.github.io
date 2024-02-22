@@ -233,3 +233,27 @@ body {
 a{
   text-decoration: none;
 }
+
+.copy-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#content-to-copy {
+  padding: 10px;
+  border: none;
+  margin: 5px;
+  font-size: 0.8em;
+}
+
+#copy-button {
+  background-color: transparent;
+  color: black;
+  cursor: pointer;
+  border: none;
+}
+
+#copy-button.copied {
+  background-color: #28a745;
+}
