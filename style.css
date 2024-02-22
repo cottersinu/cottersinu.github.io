@@ -235,11 +235,7 @@ a{
 }
 
 .copy-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 97%;
-  margin-left: 5px;
+  text-align: center;
 }
 
 #content-to-copy {
